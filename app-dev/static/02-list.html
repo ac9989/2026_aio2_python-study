@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head><meta charset="utf-8"><title>도서 목록</title></head>
+<body>
+    <h1>도서 목록</h1>
+    <button id="loadBtn">목록 불러오기</button>
+    <!-- <ul id="result"></ul> -->
+
+    <!-- <script>
+        document.getElementById("loadBtn").addEventListener("click", async () => {
+            const books = await (await fetch("/books")).json();
+            const ul = document.getElementById("result");
+            ul.innerHTML = "";
+            for (const b of books) {
+                const li = document.createElement("li");
+                li.textContent = b.id + ". " + b.title + " - " + b.author + " (" + b.year + ")";
+                ul.appendChild(li);
+            }
+        });
+    </script> -->
+
+    <table border="1">
+        <thead>
+            <tr>
+                <th>번호</th>
+                <th>제목</th>
+                <th>저자</th>
+                <th>출판연도</th>
+            </tr>
+        </thead>
+
+        <tbody id="result">
+        </tbody>
+    </table>
+
+
+    <script>
+        document.getElementById("loadBtn").addEventListener("click", async () => {
+
+            const books = await (await fetch("/books")).json();
+
+            const tbody = document.getElementById("result");
+
+            tbody.innerHTML = "";
+
+            for (const b of books) {
+
+                const tr = document.createElement("tr");
+
+                tr.innerHTML = `
+                    <td>${b.id}</td>
+                    <td>${b.title}</td>
+                    <td>${b.author}</td>
+                    <td>${b.year}</td>
+                `;
+
+                tbody.appendChild(tr);
+            }
+        });
+    </script>
+
+</body>
+</html>

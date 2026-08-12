@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>what's your name?
+    </title>
+<head>
+    <meta charset="UTF-8">
+    <title>이름 입력</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 50px;
+            font-size: 24px;
+        }
+
+        .input-area {
+            display: flex;
+            align-items: center;
+            gap: 20px;
+            margin-bottom: 50px;
+        }
+
+        input {
+            width: 220px;
+            height: 45px;
+            font-size: 22px;
+            padding: 5px 10px;
+            border: 3px solid #4f81bd;
+        }
+
+        button {
+            width: 110px;
+            height: 55px;
+            font-size: 22px;
+            background-color: white;
+            border: 3px solid #4f81bd;
+            cursor: pointer;
+        }
+
+        #result {
+            font-size: 26px;
+        }
+
+        #nameResult {
+            display: inline-block;
+            min-width: 100px;
+            text-align: center;
+            border-bottom: 2px solid black;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="input-area">
+
+        <label for="nameInput">이름</label>
+
+        <input type="text" id="nameInput">
+
+        <button type="button" onclick="showName()">입력</button>
+
+    </div>
+
+
+    <p id="result">
+        당신의 이름은
+        <span id="nameResult">&nbsp;</span>
+        입니다.
+    </p>
+
+
+    <script>
+        function showName() {
+
+            // 입력창에 적은 이름 가져오기
+            const name = document.getElementById("nameInput").value;
+
+            // 이름을 화면에 표시하기
+            document.getElementById("nameResult").textContent = name;
+        }
+    </script>
+
+</body>
+
+</html>

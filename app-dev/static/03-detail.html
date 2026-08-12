@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head><meta charset="utf-8"><title>도서 조회</title></head>
+<body>
+    <h1>도서 단건 조회</h1>
+    <input id="bookId" type="number" placeholder="도서 번호">
+    <button id="findBtn">조회</button>
+    <p id="result"></p>
+
+    <script>
+    document.getElementById("findBtn").addEventListener("click", async () =>{
+        const id = document.getElementById("bookId").value;
+        const book = await (await fetch("/books/" + id)).json();
+        const p = document.getElementById("result");
+        if (book.error) {
+            p.textContent = "찾을 수 없습니다.";
+        } else {
+            p.textContent = book.title + " - " + book.author + " (" + book.year+ ")";
+    }
+    });
+    </script>
+</body>
+</html>
