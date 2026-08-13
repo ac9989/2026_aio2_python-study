@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="utf-8">
+    <title>도서 등록 최종</title>
+</head>
+
+<body>
+    <h1>도서 등록 (통합)</h1>
+
+    <input id="title" placeholder="제목">
+    <input id="author" placeholder="저자">
+    <input id="year" type="number" placeholder="연도">
+
+    <button id="saveBtn">등록</button>
+
+    <p id="msg"></p>
+    <ul id="list"></ul>
+
+    <script>
+        async function loadList() {
+            const books = await (await fetch("/books")).json();
+
+            const ul = document.getElementById("list");
+            ul.innerHTML = "";
+
+            for (const b of books) {
+                const li = document.createElement("li");
+
+                li.textContent =
+                    b.id + ". " +
+                    b.title + " - " +
+                    b.author;
+
+                ul.appendChild(li);
+            }
+        }
+
+        function showMessage(text, isError) {
+            const msg = document.getElementById("msg");
+
+            msg.textContent = text;
+            msg.style.color = isError ? "red" : "green";
+        }
+
+        document.getElementById("saveBtn").addEventListener("click", async () => {
+            const payload = {
+                title: document.getElementById("title").value,
+                author: document.getElementById("author").value,
+                year: Number(document.getElementById("year").value)
+            };
+
+            const res = await fetch("/books", {
+                method: "POST",
+                headers: {
+                    "Content-Type": "application/json"
+                },
+                body: JSON.stringify(payload)
+            });
+
+            const data = await res.json();
+
+            if (res.status === 201) {
+                showMessage(
+                    "등록 완료: " + data.title,
+                    false
+                );
+
+                loadList();
+
+            } else if (res.status === 409) {
+                showMessage(
+                    "중복: " + data.detail,
+                    true
+                );
+
+            } else if (res.status === 422) {
+                const messages = data.detail.map(
+                    e => e.loc.join(".") + " " + e.msg
+                );
+
+                showMessage(
+                    "입력 오류: " + messages.join(" / "),
+                    true
+                );
+
+            } else {
+                showMessage(
+                    "알 수 없는 오류 (상태 " + res.status + ")",
+                    true
+                );
+            }
+        });
+
+        loadList();
+    </script>
+</body>
+</html>

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head><meta charset="utf-8"><title>도서 등록</title></head>
+<body>
+    <h1>도서 등록</h1>
+    <input id="title" placeholder="제목">
+    <input id="author" placeholder="저자">
+    <input id="year" type="number" placeholder="연도">
+    <button id="saveBtn">등록</button>
+    <p id="result"></p>
+
+    <script>
+        document.getElementById("saveBtn").addEventListener("click", async () =>{
+            const payload = {
+                title: document.getElementById("title").value,
+                author: document.getElementById("author").value,
+                year: Number(document.getElementById("year").value)
+            };
+            const res = await fetch("/books", {
+                method: "POST",
+                headers: { "Content-Type": "application/json" },
+                body: JSON.stringify(payload)
+            });
+            const data = await res.json();
+            document.getElementById("result").textContent ="상태" + res.status + " / " + JSON.stringify(data);
+        });
+    </script>
+    </body>
+</html>

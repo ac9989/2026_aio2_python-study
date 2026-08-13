@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head><meta charset="utf-8"><title>페이지네이션</title></head>
+<body>
+    <h1>페이지네이션</h1>
+    <button id="prevBtn">이전</button>
+    <button id="nextBtn">다음</button>
+    <ul id="result"></ul>
+    
+    <script>
+        let skip = 0;
+        const limit = 2;
+
+        async function render() {
+            if (skip < 0) skip = 0;
+            const books = await (await fetch("/books/page?skip=" + skip +"&limit=" + limit)).json();
+            const ul = document.getElementById("result");
+            ul.innerHTML = "";
+            for (const b of books) {
+                const li = document.createElement("li");
+                li.textContent = b.id + ". " + b.title;
+                ul.appendChild(li);
+            }
+        }
+        document.getElementById("prevBtn").addEventListener("click", () => {skip -= limit; render(); });
+        document.getElementById("nextBtn").addEventListener("click", () => {skip += limit; render(); });
+        render();
+    </script>
+</body>
+</html>
