@@ -89,9 +89,12 @@
 from fastapi import FastAPI, HTTPException, status
 from fastapi.staticfiles import StaticFiles
 from pydantic import BaseModel, Field, field_validator
+from schemas import WeatherResponse, BookResponse, GoogleBooks, BookCreate
+from external_api import fetch_books, fetch_weather
+
+# import httpx
 
 app = FastAPI()
-
 app.mount("/static", StaticFiles(directory="static"), name="static")
 
 
@@ -162,8 +165,6 @@ class BookCreate(BaseModel):
         return v
 
 
-class BookResponse(BookCreate):
-    id: int
 
 
 @app.get("/")
@@ -250,12 +251,38 @@ def page_books(skip: int = 0, limit: int = 2):
     return books[skip: skip + limit]
 
 
+
+
+# @app.get("/weather/raw")
+# async def weather_raw():
+#     async with httpx.AsyncClient(timeout=5.0) as client:
+#         response = await client.get(
+#             "https://api.open-meteo.com/v1/forecast",
+#             params={
+#                 "latitude": 36.8,
+#                 "longitude": 127.1,
+#                 "current": "temperature_2m",
+#             },
+#         )
+#         return response.json()
+
+
+from external_api import fetch_weather
+
+@app.get("/weather", response_model=WeatherResponse)
+async def weather(latitude: float=36.8, longitude: float=127.1):
+    return await fetch_weather(latitude, longitude)
+
+#엔드 포인트
+@app.get("/books/external", response_model=list[GoogleBooks])
+async def search_external_books(keyword:str, limit:int=5):
+    return await  fetch_books(keyword, limit)
+
 @app.get("/books/{book_id}", response_model=BookResponse)
 def read_book(book_id: int):
     for book in books:
         if book["id"] == book_id:
             return book
-
     raise HTTPException(
         status_code=404,
         detail="도서를 찾을 수 없습니다"
