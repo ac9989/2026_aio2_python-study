@@ -1,0 +1,1412 @@
+[
+  {
+    "id": 1,
+    "title": "파이썬 입문",
+    "author": "김철수",
+    "year": 2021,
+    "tags": [
+      "python",
+      "입문"
+    ],
+    "publisher": {
+      "name": "코드북스",
+      "city": "서울"
+    }
+  },
+  {
+    "id": 2,
+    "title": "FastAPI 실전",
+    "author": "이영희",
+    "year": 2023,
+    "tags": [
+      "fastapi",
+      "backend"
+    ],
+    "publisher": {
+      "name": "테크프레스",
+      "city": "서울"
+    }
+  },
+  {
+    "id": 3,
+    "title": "파이썬 웹개발",
+    "author": "김철수",
+    "year": 2022,
+    "tags": [
+      "python",
+      "web"
+    ],
+    "publisher": {
+      "name": "코드북스",
+      "city": "서울"
+    }
+  },
+  {
+    "id": 4,
+    "title": "데이터 분석 기초",
+    "author": "박민수",
+    "year": 2020,
+    "tags": [
+      "data",
+      "analysis"
+    ],
+    "publisher": {
+      "name": "데이터랩",
+      "city": "서울"
+    }
+  },
+  {
+    "id": 5,
+    "title": "FastAPI로 배우는 백엔드",
+    "author": "이영희",
+    "year": 2024,
+    "tags": [
+      "fastapi",
+      "backend"
+    ],
+    "publisher": {
+      "name": "테크프레스",
+      "city": "서울"
+    }
+  },
+  {
+    "id": 6,
+    "title": "파이썬 문법 완전정복",
+    "author": "김철수",
+    "year": 2022,
+    "tags": [
+      "python",
+      "기초"
+    ],
+    "publisher": {
+      "name": "코드북스",
+      "city": "서울"
+    }
+  },
+  {
+    "id": 7,
+    "title": "파이썬 함수와 클래스",
+    "author": "김철수",
+    "year": 2023,
+    "tags": [
+      "python",
+      "oop"
+    ],
+    "publisher": {
+      "name": "테크프레스",
+      "city": "서울"
+    }
+  },
+  {
+    "id": 8,
+    "title": "파이썬 자료구조 실습",
+    "author": "박서준",
+    "year": 2021,
+    "tags": [
+      "python",
+      "자료구조"
+    ],
+    "publisher": {
+      "name": "데이터랩",
+      "city": "서울"
+    }
+  },
+  {
+    "id": 9,
+    "title": "파이썬 알고리즘 첫걸음",
+    "author": "박서준",
+    "year": 2024,
+    "tags": [
+      "python",
+      "algorithm"
+    ],
+    "publisher": {
+      "name": "개발자의책",
+      "city": "성남"
+    }
+  },
+  {
+    "id": 10,
+    "title": "파이썬 프로젝트 20선",
+    "author": "최유진",
+    "year": 2025,
+    "tags": [
+      "python",
+      "project"
+    ],
+    "publisher": {
+      "name": "넥스트코드",
+      "city": "서울"
+    }
+  },
+  {
+    "id": 11,
+    "title": "파이썬 자동화 레시피",
+    "author": "최유진",
+    "year": 2024,
+    "tags": [
+      "python",
+      "automation"
+    ],
+    "publisher": {
+      "name": "코드북스",
+      "city": "서울"
+    }
+  },
+  {
+    "id": 12,
+    "title": "파이썬 파일 처리",
+    "author": "김철수",
+    "year": 2020,
+    "tags": [
+      "python",
+      "file"
+    ],
+    "publisher": {
+      "name": "테크프레스",
+      "city": "서울"
+    }
+  },
+  {
+    "id": 13,
+    "title": "파이썬 예외 처리 가이드",
+    "author": "한지우",
+    "year": 2023,
+    "tags": [
+      "python",
+      "debug"
+    ],
+    "publisher": {
+      "name": "데이터랩",
+      "city": "서울"
+    }
+  },
+  {
+    "id": 14,
+    "title": "파이썬 테스트 코드",
+    "author": "한지우",
+    "year": 2025,
+    "tags": [
+      "python",
+      "test"
+    ],
+    "publisher": {
+      "name": "개발자의책",
+      "city": "성남"
+    }
+  },
+  {
+    "id": 15,
+    "title": "파이썬 비동기 프로그래밍",
+    "author": "이영희",
+    "year": 2024,
+    "tags": [
+      "python",
+      "async"
+    ],
+    "publisher": {
+      "name": "넥스트코드",
+      "city": "서울"
+    }
+  },
+  {
+    "id": 16,
+    "title": "FastAPI 시작하기",
+    "author": "이영희",
+    "year": 2022,
+    "tags": [
+      "fastapi",
+      "입문"
+    ],
+    "publisher": {
+      "name": "코드북스",
+      "city": "서울"
+    }
+  },
+  {
+    "id": 17,
+    "title": "FastAPI 라우팅 마스터",
+    "author": "정우성",
+    "year": 2023,
+    "tags": [
+      "fastapi",
+      "routing"
+    ],
+    "publisher": {
+      "name": "테크프레스",
+      "city": "서울"
+    }
+  },
+  {
+    "id": 18,
+    "title": "FastAPI와 Pydantic",
+    "author": "정우성",
+    "year": 2024,
+    "tags": [
+      "fastapi",
+      "pydantic"
+    ],
+    "publisher": {
+      "name": "데이터랩",
+      "city": "서울"
+    }
+  },
+  {
+    "id": 19,
+    "title": "FastAPI 인증 시스템",
+    "author": "이영희",
+    "year": 2025,
+    "tags": [
+      "fastapi",
+      "auth"
+    ],
+    "publisher": {
+      "name": "개발자의책",
+      "city": "성남"
+    }
+  },
+  {
+    "id": 20,
+    "title": "FastAPI 비동기 API",
+    "author": "송민재",
+    "year": 2024,
+    "tags": [
+      "fastapi",
+      "async"
+    ],
+    "publisher": {
+      "name": "넥스트코드",
+      "city": "서울"
+    }
+  },
+  {
+    "id": 21,
+    "title": "FastAPI 테스트 전략",
+    "author": "송민재",
+    "year": 2025,
+    "tags": [
+      "fastapi",
+      "test"
+    ],
+    "publisher": {
+      "name": "코드북스",
+      "city": "서울"
+    }
+  },
+  {
+    "id": 22,
+    "title": "FastAPI 배포 가이드",
+    "author": "정우성",
+    "year": 2025,
+    "tags": [
+      "fastapi",
+      "deploy"
+    ],
+    "publisher": {
+      "name": "테크프레스",
+      "city": "서울"
+    }
+  },
+  {
+    "id": 23,
+    "title": "FastAPI와 SQLAlchemy",
+    "author": "이영희",
+    "year": 2024,
+    "tags": [
+      "fastapi",
+      "database"
+    ],
+    "publisher": {
+      "name": "데이터랩",
+      "city": "서울"
+    }
+  },
+  {
+    "id": 24,
+    "title": "FastAPI REST API 설계",
+    "author": "송민재",
+    "year": 2023,
+    "tags": [
+      "fastapi",
+      "rest"
+    ],
+    "publisher": {
+      "name": "개발자의책",
+      "city": "성남"
+    }
+  },
+  {
+    "id": 25,
+    "title": "FastAPI 성능 최적화",
+    "author": "송민재",
+    "year": 2026,
+    "tags": [
+      "fastapi",
+      "performance"
+    ],
+    "publisher": {
+      "name": "넥스트코드",
+      "city": "서울"
+    }
+  },
+  {
+    "id": 26,
+    "title": "웹 개발 입문",
+    "author": "김하늘",
+    "year": 2020,
+    "tags": [
+      "web",
+      "입문"
+    ],
+    "publisher": {
+      "name": "코드북스",
+      "city": "서울"
+    }
+  },
+  {
+    "id": 27,
+    "title": "HTML CSS 기초",
+    "author": "김하늘",
+    "year": 2021,
+    "tags": [
+      "html",
+      "css"
+    ],
+    "publisher": {
+      "name": "테크프레스",
+      "city": "서울"
+    }
+  },
+  {
+    "id": 28,
+    "title": "자바스크립트 웹 개발",
+    "author": "오세진",
+    "year": 2022,
+    "tags": [
+      "javascript",
+      "web"
+    ],
+    "publisher": {
+      "name": "데이터랩",
+      "city": "서울"
+    }
+  },
+  {
+    "id": 29,
+    "title": "프론트엔드와 백엔드 이해",
+    "author": "김하늘",
+    "year": 2023,
+    "tags": [
+      "web",
+      "backend"
+    ],
+    "publisher": {
+      "name": "개발자의책",
+      "city": "성남"
+    }
+  },
+  {
+    "id": 30,
+    "title": "REST API 디자인",
+    "author": "정우성",
+    "year": 2022,
+    "tags": [
+      "rest",
+      "api"
+    ],
+    "publisher": {
+      "name": "넥스트코드",
+      "city": "서울"
+    }
+  },
+  {
+    "id": 31,
+    "title": "HTTP 완벽 가이드 입문",
+    "author": "정우성",
+    "year": 2021,
+    "tags": [
+      "http",
+      "web"
+    ],
+    "publisher": {
+      "name": "코드북스",
+      "city": "서울"
+    }
+  },
+  {
+    "id": 32,
+    "title": "웹 서버의 원리",
+    "author": "송민재",
+    "year": 2024,
+    "tags": [
+      "web",
+      "server"
+    ],
+    "publisher": {
+      "name": "테크프레스",
+      "city": "서울"
+    }
+  },
+  {
+    "id": 33,
+    "title": "웹 보안 기초",
+    "author": "한지우",
+    "year": 2025,
+    "tags": [
+      "web",
+      "security"
+    ],
+    "publisher": {
+      "name": "데이터랩",
+      "city": "서울"
+    }
+  },
+  {
+    "id": 34,
+    "title": "웹 서비스 아키텍처",
+    "author": "송민재",
+    "year": 2025,
+    "tags": [
+      "web",
+      "architecture"
+    ],
+    "publisher": {
+      "name": "개발자의책",
+      "city": "성남"
+    }
+  },
+  {
+    "id": 35,
+    "title": "반응형 웹의 이해",
+    "author": "오세진",
+    "year": 2023,
+    "tags": [
+      "web",
+      "frontend"
+    ],
+    "publisher": {
+      "name": "넥스트코드",
+      "city": "서울"
+    }
+  },
+  {
+    "id": 36,
+    "title": "백엔드 개발 입문",
+    "author": "이영희",
+    "year": 2021,
+    "tags": [
+      "backend",
+      "입문"
+    ],
+    "publisher": {
+      "name": "코드북스",
+      "city": "서울"
+    }
+  },
+  {
+    "id": 37,
+    "title": "백엔드 API 설계",
+    "author": "정우성",
+    "year": 2023,
+    "tags": [
+      "backend",
+      "api"
+    ],
+    "publisher": {
+      "name": "테크프레스",
+      "city": "서울"
+    }
+  },
+  {
+    "id": 38,
+    "title": "백엔드 데이터 처리",
+    "author": "박민수",
+    "year": 2022,
+    "tags": [
+      "backend",
+      "data"
+    ],
+    "publisher": {
+      "name": "데이터랩",
+      "city": "서울"
+    }
+  },
+  {
+    "id": 39,
+    "title": "백엔드 인증과 권한",
+    "author": "한지우",
+    "year": 2024,
+    "tags": [
+      "backend",
+      "auth"
+    ],
+    "publisher": {
+      "name": "개발자의책",
+      "city": "성남"
+    }
+  },
+  {
+    "id": 40,
+    "title": "백엔드 테스트 실전",
+    "author": "한지우",
+    "year": 2025,
+    "tags": [
+      "backend",
+      "test"
+    ],
+    "publisher": {
+      "name": "넥스트코드",
+      "city": "서울"
+    }
+  },
+  {
+    "id": 41,
+    "title": "백엔드 배포와 운영",
+    "author": "송민재",
+    "year": 2025,
+    "tags": [
+      "backend",
+      "deploy"
+    ],
+    "publisher": {
+      "name": "코드북스",
+      "city": "서울"
+    }
+  },
+  {
+    "id": 42,
+    "title": "백엔드 성능 튜닝",
+    "author": "송민재",
+    "year": 2026,
+    "tags": [
+      "backend",
+      "performance"
+    ],
+    "publisher": {
+      "name": "테크프레스",
+      "city": "서울"
+    }
+  },
+  {
+    "id": 43,
+    "title": "백엔드 로그 분석",
+    "author": "박민수",
+    "year": 2024,
+    "tags": [
+      "backend",
+      "logging"
+    ],
+    "publisher": {
+      "name": "데이터랩",
+      "city": "서울"
+    }
+  },
+  {
+    "id": 44,
+    "title": "백엔드 아키텍처 패턴",
+    "author": "정우성",
+    "year": 2025,
+    "tags": [
+      "backend",
+      "architecture"
+    ],
+    "publisher": {
+      "name": "개발자의책",
+      "city": "성남"
+    }
+  },
+  {
+    "id": 45,
+    "title": "실전 서버 프로그래밍",
+    "author": "이영희",
+    "year": 2023,
+    "tags": [
+      "backend",
+      "server"
+    ],
+    "publisher": {
+      "name": "넥스트코드",
+      "city": "서울"
+    }
+  },
+  {
+    "id": 46,
+    "title": "데이터 분석 with Python",
+    "author": "박민수",
+    "year": 2021,
+    "tags": [
+      "data",
+      "python"
+    ],
+    "publisher": {
+      "name": "코드북스",
+      "city": "서울"
+    }
+  },
+  {
+    "id": 47,
+    "title": "Pandas 데이터 분석",
+    "author": "박민수",
+    "year": 2022,
+    "tags": [
+      "pandas",
+      "data"
+    ],
+    "publisher": {
+      "name": "테크프레스",
+      "city": "서울"
+    }
+  },
+  {
+    "id": 48,
+    "title": "NumPy 핵심 가이드",
+    "author": "윤서연",
+    "year": 2022,
+    "tags": [
+      "numpy",
+      "data"
+    ],
+    "publisher": {
+      "name": "데이터랩",
+      "city": "서울"
+    }
+  },
+  {
+    "id": 49,
+    "title": "데이터 시각화 입문",
+    "author": "윤서연",
+    "year": 2023,
+    "tags": [
+      "data",
+      "visualization"
+    ],
+    "publisher": {
+      "name": "개발자의책",
+      "city": "성남"
+    }
+  },
+  {
+    "id": 50,
+    "title": "Matplotlib 실전",
+    "author": "윤서연",
+    "year": 2024,
+    "tags": [
+      "matplotlib",
+      "visualization"
+    ],
+    "publisher": {
+      "name": "넥스트코드",
+      "city": "서울"
+    }
+  },
+  {
+    "id": 51,
+    "title": "데이터 전처리 기법",
+    "author": "박민수",
+    "year": 2024,
+    "tags": [
+      "data",
+      "preprocessing"
+    ],
+    "publisher": {
+      "name": "코드북스",
+      "city": "서울"
+    }
+  },
+  {
+    "id": 52,
+    "title": "탐색적 데이터 분석",
+    "author": "윤서연",
+    "year": 2025,
+    "tags": [
+      "data",
+      "eda"
+    ],
+    "publisher": {
+      "name": "테크프레스",
+      "city": "서울"
+    }
+  },
+  {
+    "id": 53,
+    "title": "데이터 분석 프로젝트",
+    "author": "박민수",
+    "year": 2025,
+    "tags": [
+      "data",
+      "project"
+    ],
+    "publisher": {
+      "name": "데이터랩",
+      "city": "서울"
+    }
+  },
+  {
+    "id": 54,
+    "title": "통계로 배우는 데이터 분석",
+    "author": "강지훈",
+    "year": 2023,
+    "tags": [
+      "statistics",
+      "data"
+    ],
+    "publisher": {
+      "name": "개발자의책",
+      "city": "성남"
+    }
+  },
+  {
+    "id": 55,
+    "title": "데이터 리포트 작성법",
+    "author": "윤서연",
+    "year": 2024,
+    "tags": [
+      "data",
+      "report"
+    ],
+    "publisher": {
+      "name": "넥스트코드",
+      "city": "서울"
+    }
+  },
+  {
+    "id": 56,
+    "title": "SQL 입문",
+    "author": "강지훈",
+    "year": 2020,
+    "tags": [
+      "sql",
+      "database"
+    ],
+    "publisher": {
+      "name": "코드북스",
+      "city": "서울"
+    }
+  },
+  {
+    "id": 57,
+    "title": "SQL 실전 쿼리",
+    "author": "강지훈",
+    "year": 2022,
+    "tags": [
+      "sql",
+      "database"
+    ],
+    "publisher": {
+      "name": "테크프레스",
+      "city": "서울"
+    }
+  },
+  {
+    "id": 58,
+    "title": "관계형 데이터베이스 기초",
+    "author": "강지훈",
+    "year": 2021,
+    "tags": [
+      "database",
+      "rdb"
+    ],
+    "publisher": {
+      "name": "데이터랩",
+      "city": "서울"
+    }
+  },
+  {
+    "id": 59,
+    "title": "데이터베이스 모델링",
+    "author": "강지훈",
+    "year": 2023,
+    "tags": [
+      "database",
+      "modeling"
+    ],
+    "publisher": {
+      "name": "개발자의책",
+      "city": "성남"
+    }
+  },
+  {
+    "id": 60,
+    "title": "PostgreSQL 시작하기",
+    "author": "정다은",
+    "year": 2024,
+    "tags": [
+      "postgresql",
+      "database"
+    ],
+    "publisher": {
+      "name": "넥스트코드",
+      "city": "서울"
+    }
+  },
+  {
+    "id": 61,
+    "title": "MySQL 실무 가이드",
+    "author": "정다은",
+    "year": 2023,
+    "tags": [
+      "mysql",
+      "database"
+    ],
+    "publisher": {
+      "name": "코드북스",
+      "city": "서울"
+    }
+  },
+  {
+    "id": 62,
+    "title": "ORM의 이해",
+    "author": "정다은",
+    "year": 2024,
+    "tags": [
+      "orm",
+      "database"
+    ],
+    "publisher": {
+      "name": "테크프레스",
+      "city": "서울"
+    }
+  },
+  {
+    "id": 63,
+    "title": "SQLAlchemy 실전",
+    "author": "정다은",
+    "year": 2025,
+    "tags": [
+      "sqlalchemy",
+      "python"
+    ],
+    "publisher": {
+      "name": "데이터랩",
+      "city": "서울"
+    }
+  },
+  {
+    "id": 64,
+    "title": "데이터베이스 성능 최적화",
+    "author": "강지훈",
+    "year": 2025,
+    "tags": [
+      "database",
+      "performance"
+    ],
+    "publisher": {
+      "name": "개발자의책",
+      "city": "성남"
+    }
+  },
+  {
+    "id": 65,
+    "title": "트랜잭션과 동시성",
+    "author": "정다은",
+    "year": 2026,
+    "tags": [
+      "database",
+      "transaction"
+    ],
+    "publisher": {
+      "name": "넥스트코드",
+      "city": "서울"
+    }
+  },
+  {
+    "id": 66,
+    "title": "Git과 GitHub 입문",
+    "author": "최유진",
+    "year": 2021,
+    "tags": [
+      "git",
+      "github"
+    ],
+    "publisher": {
+      "name": "코드북스",
+      "city": "서울"
+    }
+  },
+  {
+    "id": 67,
+    "title": "Git 브랜치 전략",
+    "author": "최유진",
+    "year": 2023,
+    "tags": [
+      "git",
+      "workflow"
+    ],
+    "publisher": {
+      "name": "테크프레스",
+      "city": "서울"
+    }
+  },
+  {
+    "id": 68,
+    "title": "개발자를 위한 Linux",
+    "author": "박서준",
+    "year": 2022,
+    "tags": [
+      "linux",
+      "devops"
+    ],
+    "publisher": {
+      "name": "데이터랩",
+      "city": "서울"
+    }
+  },
+  {
+    "id": 69,
+    "title": "Docker 시작하기",
+    "author": "송민재",
+    "year": 2023,
+    "tags": [
+      "docker",
+      "devops"
+    ],
+    "publisher": {
+      "name": "개발자의책",
+      "city": "성남"
+    }
+  },
+  {
+    "id": 70,
+    "title": "Docker 실전 배포",
+    "author": "송민재",
+    "year": 2024,
+    "tags": [
+      "docker",
+      "deploy"
+    ],
+    "publisher": {
+      "name": "넥스트코드",
+      "city": "서울"
+    }
+  },
+  {
+    "id": 71,
+    "title": "CI/CD 파이프라인 구축",
+    "author": "송민재",
+    "year": 2025,
+    "tags": [
+      "cicd",
+      "devops"
+    ],
+    "publisher": {
+      "name": "코드북스",
+      "city": "서울"
+    }
+  },
+  {
+    "id": 72,
+    "title": "클라우드 서버 입문",
+    "author": "문예린",
+    "year": 2022,
+    "tags": [
+      "cloud",
+      "server"
+    ],
+    "publisher": {
+      "name": "테크프레스",
+      "city": "서울"
+    }
+  },
+  {
+    "id": 73,
+    "title": "AWS로 배포하기",
+    "author": "문예린",
+    "year": 2024,
+    "tags": [
+      "aws",
+      "deploy"
+    ],
+    "publisher": {
+      "name": "데이터랩",
+      "city": "서울"
+    }
+  },
+  {
+    "id": 74,
+    "title": "개발 환경 자동화",
+    "author": "최유진",
+    "year": 2025,
+    "tags": [
+      "automation",
+      "devops"
+    ],
+    "publisher": {
+      "name": "개발자의책",
+      "city": "성남"
+    }
+  },
+  {
+    "id": 75,
+    "title": "서버 모니터링 기초",
+    "author": "문예린",
+    "year": 2025,
+    "tags": [
+      "monitoring",
+      "server"
+    ],
+    "publisher": {
+      "name": "넥스트코드",
+      "city": "서울"
+    }
+  },
+  {
+    "id": 76,
+    "title": "클린 코드 with Python",
+    "author": "한지우",
+    "year": 2022,
+    "tags": [
+      "python",
+      "clean-code"
+    ],
+    "publisher": {
+      "name": "코드북스",
+      "city": "서울"
+    }
+  },
+  {
+    "id": 77,
+    "title": "리팩터링 입문",
+    "author": "한지우",
+    "year": 2023,
+    "tags": [
+      "refactoring",
+      "clean-code"
+    ],
+    "publisher": {
+      "name": "테크프레스",
+      "city": "서울"
+    }
+  },
+  {
+    "id": 78,
+    "title": "객체지향 프로그래밍",
+    "author": "박서준",
+    "year": 2021,
+    "tags": [
+      "oop",
+      "programming"
+    ],
+    "publisher": {
+      "name": "데이터랩",
+      "city": "서울"
+    }
+  },
+  {
+    "id": 79,
+    "title": "디자인 패턴 기초",
+    "author": "정우성",
+    "year": 2023,
+    "tags": [
+      "design-pattern",
+      "architecture"
+    ],
+    "publisher": {
+      "name": "개발자의책",
+      "city": "성남"
+    }
+  },
+  {
+    "id": 80,
+    "title": "테스트 주도 개발 입문",
+    "author": "한지우",
+    "year": 2024,
+    "tags": [
+      "tdd",
+      "test"
+    ],
+    "publisher": {
+      "name": "넥스트코드",
+      "city": "서울"
+    }
+  },
+  {
+    "id": 81,
+    "title": "소프트웨어 설계 원칙",
+    "author": "정우성",
+    "year": 2025,
+    "tags": [
+      "architecture",
+      "design"
+    ],
+    "publisher": {
+      "name": "코드북스",
+      "city": "서울"
+    }
+  },
+  {
+    "id": 82,
+    "title": "개발자를 위한 코드 리뷰",
+    "author": "최유진",
+    "year": 2024,
+    "tags": [
+      "code-review",
+      "team"
+    ],
+    "publisher": {
+      "name": "테크프레스",
+      "city": "서울"
+    }
+  },
+  {
+    "id": 83,
+    "title": "좋은 API의 조건",
+    "author": "정우성",
+    "year": 2025,
+    "tags": [
+      "api",
+      "design"
+    ],
+    "publisher": {
+      "name": "데이터랩",
+      "city": "서울"
+    }
+  },
+  {
+    "id": 84,
+    "title": "에러 처리와 디버깅",
+    "author": "한지우",
+    "year": 2022,
+    "tags": [
+      "debug",
+      "programming"
+    ],
+    "publisher": {
+      "name": "개발자의책",
+      "city": "성남"
+    }
+  },
+  {
+    "id": 85,
+    "title": "개발자 문서화 가이드",
+    "author": "최유진",
+    "year": 2023,
+    "tags": [
+      "documentation",
+      "developer"
+    ],
+    "publisher": {
+      "name": "넥스트코드",
+      "city": "서울"
+    }
+  },
+  {
+    "id": 86,
+    "title": "머신러닝 입문 with Python",
+    "author": "박민수",
+    "year": 2023,
+    "tags": [
+      "machine-learning",
+      "python"
+    ],
+    "publisher": {
+      "name": "코드북스",
+      "city": "서울"
+    }
+  },
+  {
+    "id": 87,
+    "title": "사이킷런 첫걸음",
+    "author": "윤서연",
+    "year": 2024,
+    "tags": [
+      "scikit-learn",
+      "machine-learning"
+    ],
+    "publisher": {
+      "name": "테크프레스",
+      "city": "서울"
+    }
+  },
+  {
+    "id": 88,
+    "title": "머신러닝 데이터 전처리",
+    "author": "윤서연",
+    "year": 2025,
+    "tags": [
+      "machine-learning",
+      "preprocessing"
+    ],
+    "publisher": {
+      "name": "데이터랩",
+      "city": "서울"
+    }
+  },
+  {
+    "id": 89,
+    "title": "회귀분석 실전",
+    "author": "강지훈",
+    "year": 2024,
+    "tags": [
+      "regression",
+      "statistics"
+    ],
+    "publisher": {
+      "name": "개발자의책",
+      "city": "성남"
+    }
+  },
+  {
+    "id": 90,
+    "title": "분류 모델 이해하기",
+    "author": "박민수",
+    "year": 2025,
+    "tags": [
+      "classification",
+      "machine-learning"
+    ],
+    "publisher": {
+      "name": "넥스트코드",
+      "city": "서울"
+    }
+  },
+  {
+    "id": 91,
+    "title": "추천 시스템 기초",
+    "author": "윤서연",
+    "year": 2026,
+    "tags": [
+      "recommendation",
+      "machine-learning"
+    ],
+    "publisher": {
+      "name": "코드북스",
+      "city": "서울"
+    }
+  },
+  {
+    "id": 92,
+    "title": "AI 서비스를 위한 API",
+    "author": "이영희",
+    "year": 2025,
+    "tags": [
+      "ai",
+      "api"
+    ],
+    "publisher": {
+      "name": "테크프레스",
+      "city": "서울"
+    }
+  },
+  {
+    "id": 93,
+    "title": "Python으로 만드는 AI 백엔드",
+    "author": "이영희",
+    "year": 2026,
+    "tags": [
+      "python",
+      "ai"
+    ],
+    "publisher": {
+      "name": "데이터랩",
+      "city": "서울"
+    }
+  },
+  {
+    "id": 94,
+    "title": "데이터 기반 웹 서비스",
+    "author": "박민수",
+    "year": 2024,
+    "tags": [
+      "data",
+      "web"
+    ],
+    "publisher": {
+      "name": "개발자의책",
+      "city": "성남"
+    }
+  },
+  {
+    "id": 95,
+    "title": "AI 모델 서빙 입문",
+    "author": "송민재",
+    "year": 2026,
+    "tags": [
+      "ai",
+      "backend"
+    ],
+    "publisher": {
+      "name": "넥스트코드",
+      "city": "서울"
+    }
+  },
+  {
+    "id": 96,
+    "title": "API 프로젝트 실전",
+    "author": "정우성",
+    "year": 2024,
+    "tags": [
+      "api",
+      "project"
+    ],
+    "publisher": {
+      "name": "코드북스",
+      "city": "서울"
+    }
+  },
+  {
+    "id": 97,
+    "title": "파이썬 백엔드 프로젝트",
+    "author": "이영희",
+    "year": 2025,
+    "tags": [
+      "python",
+      "backend"
+    ],
+    "publisher": {
+      "name": "테크프레스",
+      "city": "서울"
+    }
+  },
+  {
+    "id": 98,
+    "title": "FastAPI 미니 프로젝트",
+    "author": "이영희",
+    "year": 2025,
+    "tags": [
+      "fastapi",
+      "project"
+    ],
+    "publisher": {
+      "name": "데이터랩",
+      "city": "서울"
+    }
+  },
+  {
+    "id": 99,
+    "title": "데이터 분석 미니 프로젝트",
+    "author": "박민수",
+    "year": 2025,
+    "tags": [
+      "data",
+      "project"
+    ],
+    "publisher": {
+      "name": "개발자의책",
+      "city": "성남"
+    }
+  },
+  {
+    "id": 100,
+    "title": "웹 개발 포트폴리오",
+    "author": "김하늘",
+    "year": 2024,
+    "tags": [
+      "web",
+      "portfolio"
+    ],
+    "publisher": {
+      "name": "넥스트코드",
+      "city": "서울"
+    }
+  },
+  {
+    "id": 101,
+    "title": "프로그래머를 위한 파이썬",
+    "author": "데인 힐라드 (Dane Hillard)",
+    "year": 2022,
+    "tags": [
+      "외부검색"
+    ],
+    "publisher": null
+  }
+]
